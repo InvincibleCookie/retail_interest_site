@@ -1,0 +1,132 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ============================================================
+# Virtual environments
+# ============================================================
+
+.venv/
+venv/
+env/
+ENV/
+labelstudio_env/
+
+# ============================================================
+# IDE / OS
+# ============================================================
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Environment / local config
+# ============================================================
+
+.env
+.env.*
+!.env.example
+*.local
+
+# ============================================================
+# Runtime data of the site
+# ============================================================
+
+data/jobs/
+data/uploads/
+data/outputs/
+data/test_reports/
+data/tmp/
+data/temp/
+
+backend/data/jobs/
+backend/data/uploads/
+backend/data/outputs/
+backend/data/test_reports/
+backend/data/tmp/
+backend/data/temp/
+
+# Keep folders if needed
+!data/.gitkeep
+!data/jobs/.gitkeep
+!data/uploads/.gitkeep
+!data/outputs/.gitkeep
+
+# ============================================================
+# Uploaded videos and archives
+# ============================================================
+
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.zip
+*.rar
+*.7z
+
+# ============================================================
+# Generated reports and analysis artifacts
+# ============================================================
+
+*.xlsx
+*.csv
+*.npy
+*.npz
+*.pkl
+*.pickle
+*_report.html
+*_report.zip
+*_heatmap*.png
+*_summary*.png
+*_zones.csv
+*_events.csv
+*_event_points.csv
+*_raw_hand_candidates.csv
+*_c6_predictions.csv
+*_zone_binary_mask.png
+*_shelf_roi.json
+
+# ============================================================
+# ML models / checkpoints
+# ============================================================
+
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.safetensors
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+
+# ============================================================
+# Jupyter
+# ============================================================
+
+.ipynb_checkpoints/
+
+# Local model weights
+models/*
+!models/.gitkeep
